@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato";
+	margin: 0 auto;
+	max-width: 810px;
+	line-height: 25.6px;
+}
+header{
+	margin-bottom: 92px;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.image{
+	margin-bottom: 60px;
+}
+.image img{
+	border-radius: 4px;
+	max-width: 100%;
+}
+.text{
+	color: #424551;
+}
+.block-one,
+.block-three{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+}
+.block-one,
+.block-four,
+.block-two.one,
+.list{
+	margin-bottom: 24px;
+}
+.block-two{
+	margin-bottom: 48px;
+}
+.block-three{
+	margin-bottom: 48px;
+	padding-left: 58px;
+}
+.list li{
+	padding-left: 32px;
+}
+.block-five{
+	margin-bottom: 60px;
+}
+.test{
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.test h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 92px;
+}
+.test-block-one{
+	background-color: rgb(121, 66, 121);
+	margin-bottom: 50px;
+	height: 100px;
+	max-width: 500px;
+	min-width: 200px;
+	overflow: auto;
+	outline: 5px solid salmon;
+}
+.test-block-two{
+	background-color: rgb(120, 163, 120);
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 10px 5px black, 0px 0px 15px rgb(66, 92, 78);
+}
+.test-block-two div{
+	display: inline;
+}
+.block-two.two span{
+	display: inline-block;
+}
+.test-block-tree{
+	background-color: rgb(192, 149, 93);
+	margin-bottom: 50px;
+	margin-left: 50px;
+	max-width: 200px;
+	border-top: 5px solid red;
+	border-bottom: 5px dotted dodgerblue;
+	border-left: 5px dashed yellow;
+	border-right: 5px double green;
+	box-shadow: 3px 3px 10px rgb(80, 78, 78);
+}
+.test-block-four{
+	background-color: rgb(122, 122, 184);
+	margin: 0 auto;
+	margin-bottom: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+.test-block-five{
+	background-color: rgb(135, 159, 86);
+	margin: 0 0 0 auto;
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+	border-radius: 70% 30% 70% 30% / 16% 30% 70% 84% ;
+}
+.navigation a{
+	display: block;
+	background-color: rgb(102, 169, 147);
+	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	height: 35px;
+	width: 100px;
+	padding: 5px;
+}
+.navigation{
+	margin-bottom: 20px;
+}
